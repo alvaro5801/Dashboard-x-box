@@ -1,61 +1,71 @@
-Xbox Analysis - Assinaturas e Benefícios
+Xbox Game Pass Analysis 📊
 
-Descrição
+Sobre o Projeto
 
-Este repositório contém uma análise detalhada dos assinantes dos planos do Xbox, incluindo informações sobre tipos de assinatura, renovação automática, e adesão a serviços adicionais como EA Play e Minecraft Season Pass.
+Este projeto tem como objetivo analisar os dados de assinantes do Xbox Game Pass e gerar insights para tomada de decisão. A partir dos dados fornecidos, foram criadas tabelas dinâmicas e gráficos interativos para melhor compreensão das tendências e padrões de uso do serviço.
 
-O arquivo Xbox_Analysis.xlsx inclui:
+📁 Arquivos Disponíveis
 
-Aba "Data": Dados brutos sobre os assinantes e suas assinaturas.
+Xbox_Analysis_Final.xlsx → Planilha contendo os dados originais, tabelas dinâmicas e gráficos para análise.
 
-Aba "Pivot_Data": Dados organizados para facilitar a criação de tabelas e gráficos dinâmicos no Excel.
+Gráficos → Imagens dos principais gráficos gerados a partir da análise.
 
-Gráficos e Insights: Visualização dos padrões encontrados na base de dados.
+🔍 Análises e Insights
 
-Estrutura do Arquivo
+As principais análises realizadas incluem:
 
-O arquivo Excel contém as seguintes colunas principais:
+Distribuição de Assinantes por Plano → Percentual de usuários em cada tipo de assinatura.
 
-Subscriber ID: Identificação do assinante.
+Taxa de Renovação Automática → Comparação entre os planos com maior e menor taxa de renovação.
 
-Plan: Tipo de plano (Core, Standard, Ultimate).
+Receita Média por Tipo de Assinatura → Identificação dos planos mais lucrativos.
 
-Plan Start Date: Data de início da assinatura.
+Impacto do EA Play e Minecraft Pass → Avaliação do impacto dessas features no valor médio gasto pelos usuários.
 
-Auto Renewal: Indica se a assinatura é renovada automaticamente.
+Distribuição de Gastos → Identificação das faixas de gasto dos assinantes.
 
-Subscription Price: Preço pago pelo plano.
+Uso de Cupons e Impacto na Receita → Como o uso de descontos afeta o faturamento do serviço.
 
-Subscription Type: Tipo de pagamento (Mensal, Anual, Trimestral).
+📊 Gráficos Criados
 
-EA Play Season Pass: Indica se o assinante possui EA Play.
+Os gráficos gerados estão disponíveis na planilha e incluem:
 
-Minecraft Season Pass: Indica se o assinante possui o passe do Minecraft.
+Distribuição de Assinantes por Plano (%)
 
-Total Value: Valor total gasto pelo assinante.
+Taxa de Renovação Automática por Plano (%)
 
-Como Usar
+Receita Média por Tipo de Assinatura ($)
 
-Baixe o arquivo Xbox_Analysis.xlsx.
+Impacto do EA Play na Receita
 
-Abra no Microsoft Excel ou Google Sheets.
+Impacto do Minecraft Pass na Receita
 
-Utilize a aba "Pivot_Data" para criar Tabelas e Gráficos Dinâmicos interativos.
+Distribuição de Gastos dos Assinantes
 
-Explore os dados para identificar padrões e tendências entre os assinantes.
+Impacto do Uso de Cupons na Receita
 
-Insights Extraídos
+🛠️ Tecnologias Utilizadas
 
-50% dos assinantes ativaram a renovação automática.
+Python → Para processamento e análise de dados
 
-33% utilizam o EA Play Season Pass.
+Pandas → Manipulação de dados
 
-66% possuem o Minecraft Season Pass.
+Seaborn & Matplotlib → Visualização de dados
 
-O gasto médio por assinante é de $25,87.
+Excel → Organização dos dados e construção de gráficos interativos
 
-Contribuição
+🚀 Como Usar
 
-Se desejar contribuir com melhorias nesta análise, sinta-se à vontade para abrir um Pull Request ou sugerir alterações via Issues.
+Baixe o arquivo Xbox_Analysis_Final.xlsx.
 
-Autor: Álvaro Silva
+Abra no Excel ou no Google Sheets.
+
+Explore as abas Data, Pivot e Charts para visualizar os dados e gráficos dinâmicos.
+
+Utilize os filtros interativos para obter insights específicos.
+
+📌 Contribuição
+
+Sinta-se à vontade para contribuir com novas análises, sugestões ou melhorias!
+
+📢 Autor: Álvaro Silva📅 Data: Fevereiro/2025
